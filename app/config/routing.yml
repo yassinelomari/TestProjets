@@ -1,0 +1,15 @@
+pdf_test:
+    resource: "@PdfTestBundle/Resources/config/routing.yml"
+    prefix:   /
+
+crud:
+    resource: "@CrudBundle/Resources/config/routing.yml"
+    prefix:   /
+
+test_routing:
+    resource: "@TestRoutingBundle/Resources/config/routing.yml"
+    prefix:   /test_routing
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

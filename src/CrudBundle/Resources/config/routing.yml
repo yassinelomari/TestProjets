@@ -1,0 +1,12 @@
+crud_homepage:
+    path:     /crud
+    defaults: { _controller: CrudBundle:Default:index }
+crud_adduser:
+    path:     /crud/{login}/{mdp}
+    defaults: { _controller: CrudBundle:Default:adduser}
+crud_listuser:
+    path:     /crud/listuser
+    defaults: { _controller: CrudBundle:Default:listuser}
+crud_deleterows:
+    path:     /crud/deleterows
+    defaults: { _controller: CrudBundle:Default:deleterows}

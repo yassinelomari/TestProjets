@@ -1,0 +1,7 @@
+pdf_test_homepage:
+    path:     /
+    defaults: { _controller: PdfTestBundle:Default:index }
+
+pdf_homepage:
+    path:     /pdf/list
+    defaults: { _controller: PdfTestBundle:Default:pdf }

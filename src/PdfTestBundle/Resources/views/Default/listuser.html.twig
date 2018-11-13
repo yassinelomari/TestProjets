@@ -1,0 +1,17 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+    <table border='1'>
+        <tr>
+            <th>id</th>
+            <th>login</th>
+            <th>mdp</th>
+        </tr>
+        {% for u in users %}
+            <tr>
+                <td>{{ u.id }}</td>
+                <td>{{ u.login }}</td>
+                <td>{{ u.mdp }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
